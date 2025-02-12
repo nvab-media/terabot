@@ -46,7 +46,7 @@ python tera.py
 
 
 # Depoly to koyeb
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=https://github.com/nvab-media/terabot&branch=main&name=DotserModz)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=https://github.com/nvab-media/terabot&branch=main&name=DotserModz&env[API_ID]=api_id&env[API_HASH]=api_hash&env[BOT_TOKEN]=bot_token&env[PORT]=8000)
 
 A web service for Terabot
 
