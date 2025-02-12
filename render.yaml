@@ -1,0 +1,19 @@
+services:
+- type: web
+  name: DOTSERMODZ
+  runtime: docker
+  repo: https://github.com/nvab-media/terabot
+  plan: free
+  envVars:
+  - key: API_ID
+    sync: false
+  - key: API_HASH
+    sync: false
+  - key: BOT_TOKEN
+    sync: false
+  - key: PORT
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"

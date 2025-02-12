@@ -32,12 +32,15 @@ pip install -r requirements.txt
 
 ### 3️⃣ Configure Environment Variables
 Create a `.env` file and add the following:
-```env
-API_ID=your_api_id
-API_HASH=your_api_hash
-BOT_TOKEN=your_bot_token
-PORT=5000
-```
+## env
+> | Variable   | Description |
+> |------------|-------------|
+> | `API_ID`   | Your Telegram API ID |
+> | `API_HASH` | Your Telegram API Hash |
+> | `BOT_TOKEN` | The bot token from @BotFather |
+> | `IMG_URL` |  your IMG URL |
+> | `PORT` | (5000) |
+
 
 ### 4️⃣ Run the Bot
 ```sh
@@ -50,12 +53,15 @@ python tera.py
 
 
 # Depoly to Render
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy](https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=Render&logoColor=white)](https://render.com/deploy?repo=https://github.com/nvab-media/terabot)
 
+Deployment Instructions
+1. Fork this repo Click Here
+2. On Render dashboard, click New and choose Web Service.
+3. Choose Public Repository, then paste this url: https://github.com/nvab-media/terabot
+4. Add required environment variables.
 
-> step 1 ## Choose Web Serives
-> step 2 ## Choose Dockerfile
-> step 3 ## Add .env ⬇️
+> ## Add .env ⬇️
 > | Variable   | Description |
 > |------------|-------------|
 > | `API_ID`   | Your Telegram API ID |
