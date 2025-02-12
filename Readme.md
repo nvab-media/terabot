@@ -46,10 +46,7 @@ python tera.py
 
 
 # Depoly to koyeb
-[![Deploy to Koyeb](https://app.koyeb.com/deploy?repository=https://github.com/nvab-media/terabot)](https://app.koyeb.com/deploy?repository=https://github.com/nvab-media/terabot)
-
-# Depoly to Render
-# Terabot
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=https://github.com/nvab-media/terabot&branch=main&name=DotserModz)
 
 A web service for Terabot
 
