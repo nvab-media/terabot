@@ -1,0 +1,6 @@
+pyrogram
+requests
+flask
+python-dotenv
+tgcrypto
+pyrofork
