@@ -38,7 +38,7 @@ Create a `.env` file and add the following:
 > | `API_ID`   | Your Telegram API ID |
 > | `API_HASH` | Your Telegram API Hash |
 > | `BOT_TOKEN` | The bot token from @BotFather |
-> | `IMG_URL` |  your IMG URL |
+> | `IMG_LINK` |  your IMG URL |
 > | `PORT` | (5000) |
 
 
@@ -67,7 +67,7 @@ Deployment Instructions
 > | `API_ID`   | Your Telegram API ID |
 > | `API_HASH` | Your Telegram API Hash |
 > | `BOT_TOKEN` | The bot token from @BotFather |
-> | `IMG_URL` |  your IMG URL |
+> | `IMG_LINK` |  your IMG URL |
 > | `PORT` | (5000) |
 
 ## Contributing
