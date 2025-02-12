@@ -48,9 +48,11 @@ python tera.py
 # Depoly to koyeb
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=https://github.com/nvab-media/terabot&branch=main&name=DotserModz&env[API_ID]=api_id&env[API_HASH]=api_hash&env[BOT_TOKEN]=bot_token&env[PORT]=8000)
 
-A web service for Terabot
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/nvab-media/terabot)
+# Depoly to Render
+<a href="https://render.com/deploy?repo=https://github.com/xeon4bo/xeon4bot">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
+</a>
 
 
 ## Contributing
