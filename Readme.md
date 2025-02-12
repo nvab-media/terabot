@@ -46,14 +46,23 @@ python tera.py
 
 
 # Depoly to koyeb
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=https://github.com/nvab-media/terabot&branch=main&name=DotserModz&env[API_ID]=api_id&env[API_HASH]=api_hash&env[BOT_TOKEN]=bot_token&env[PORT]=8000)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=dockerfile&repository=https://github.com/nvab-media/terabot&branch=main&name=DotserModz&env[API_ID]=your_api_id&env[API_HASH]=your_api_hash&env[BOT_TOKEN]=your_bot_token&env[PORT]=8000)
 
 
 # Depoly to Render
-<a href="https://render.com/deploy?repo=https://github.com/nvab-media/terabot">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
-</a>
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
+
+> step 1 ## Choose Web Serives
+> step 2 ## Choose Dockerfile
+> step 3 ## Add .env ⬇️
+> | Variable   | Description |
+> |------------|-------------|
+> | `API_ID`   | Your Telegram API ID |
+> | `API_HASH` | Your Telegram API Hash |
+> | `BOT_TOKEN` | The bot token from @BotFather |
+> | `IMG_URL` |  your IMG URL |
+> | `PORT` | (5000) |
 
 ## Contributing
 
